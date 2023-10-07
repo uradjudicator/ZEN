@@ -1,0 +1,22 @@
+@media(max-width: 992px){
+    .text-part{
+        max-width: 360px;
+    }
+}
+
+
+@media(max-width: 770px){
+    .bars{
+        display: block;
+    }
+    .logo-part ul,
+    .nav{
+        display: none;
+    }
+    .logo-part{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

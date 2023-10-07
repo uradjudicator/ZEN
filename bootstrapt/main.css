@@ -1,28 +1,34 @@
-body{
+body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.device img{
+.device img {
     cursor: pointer;
 }
 
-.hero .left .text{
+.hero .left .text {
     max-width: 400px;
 }
 
 .text-part {
     width: 475px;
-    
+
 }
+
 .cashback .text-part {
     width: 584px;
 
 }
 
-.footer .follow i{
+.footer .follow i {
     margin: 0 auto;
     text-align: center;
     border: 4px solid #000;
     font-weight: 700;
     padding: 15px;
 }
+
+.bars{
+    display: none;
+}
+
