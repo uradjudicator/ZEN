@@ -9,3 +9,20 @@ body{
 .hero .left .text{
     max-width: 400px;
 }
+
+.text-part {
+    width: 475px;
+    
+}
+.cashback .text-part {
+    width: 584px;
+
+}
+
+.footer .follow i{
+    margin: 0 auto;
+    text-align: center;
+    border: 4px solid #000;
+    font-weight: 700;
+    padding: 15px;
+}
