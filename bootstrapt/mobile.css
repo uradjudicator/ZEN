@@ -107,23 +107,13 @@
      
     }
 
-    
     .warranty .row .right{
         margin-top: 25px;
     }
 
-
-
-
-
-
-
-
 .mastercard .row .buttons{
     margin: 0 auto;
 }
-
-
     /* reverses */
     .care .row,
     .mastercard .row,
@@ -131,4 +121,12 @@
         flex-wrap: wrap-reverse;
     }
 
+}
+
+
+@media(max-width: 576px){
+    .title,
+    .text{
+        text-align: center;
+    }
 }
