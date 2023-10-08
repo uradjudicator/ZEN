@@ -28,6 +28,15 @@ body {
 
 }
 
+.account .right .device{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.account .right .device img{
+    width: 150px;
+}
+
 .cashback .text-part {
     width: 584px;
 
@@ -41,10 +50,6 @@ body {
     padding: 15px;
 }
 
-.bars,
-.mobile-menu{
-    display: none;
-}
 
 
 .title{
@@ -52,4 +57,8 @@ body {
 }
 .text{
     font-size: 18px;
+}
+.bars,
+.mobile-menu{
+    display: none;
 }
