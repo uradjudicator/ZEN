@@ -41,9 +41,11 @@ body {
     padding: 15px;
 }
 
-.bars{
+.bars,
+.mobile-menu{
     display: none;
 }
+
 
 .title{
     font-size: 36px;
