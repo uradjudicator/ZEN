@@ -1,22 +1,110 @@
-@media(max-width: 992px){
-    .text-part{
+@media(max-width: 992px) {
+    .text-part {
         max-width: 360px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .text {
+        font-size: 16px;
     }
 }
 
 
-@media(max-width: 770px){
-    .bars{
-        display: block;
+@media(max-width: 770px) {
+    .shopping {
+        flex-wrap: wrap-reverse;
     }
+
+    .row {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero .shopping .device {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* gap: 15px; */
+    }
+
+    .hero .shopping .device .apple {
+        padding: 25px;
+    }
+
+    .hero .shopping .device .android {
+        padding: 25px;
+    }
+
+    .hero .shopping .text {
+
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+
     .logo-part ul,
-    .nav{
+    .nav {
         display: none;
     }
-    .logo-part{
+
+    .logo-part {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .image-part {
+        width: 372px;   
+        height: 373px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    /* warranty */
+
+    .warranty .row {
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+
+    .warranty .row .left{
+
+    }
+    .warranty .row .right{
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+
+
+.mastercard .row .buttons{
+    margin: 0 auto;
+}
+
+
+    /* reverses */
+    .care .row,
+    .mastercard .row,
+    .one-app .row{
+        flex-wrap: wrap-reverse;
     }
 
 }

@@ -2,8 +2,21 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.container{
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+}
+.hero .shopping .device{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .device img {
     cursor: pointer;
+}
+.row{
+    justify-content: space-between;
 }
 
 .hero .left .text {
@@ -32,3 +45,9 @@ body {
     display: none;
 }
 
+.title{
+    font-size: 36px;
+}
+.text{
+    font-size: 18px;
+}
